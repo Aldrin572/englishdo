@@ -18,32 +18,66 @@
             <div class="header_menu--icon"></div>
         </label>
         <input class="header_menu--checkbox" type="checkbox" name="" id="checkbox-menu">
-        <li class="header__list">
-            <ul class="header__list--item"><a class="list__item--a" href="#">Contactos</a></ul>
-            <ul class="header__list--item"><a class="list__item--a" href="#">Mas info</a></ul>
-            <ul class="header__list--item"><a class="list__item--a" href="#">Preguntas frecuentes</a></ul>
-            <ul class="header__list--item"><a class="list__item--a" href="#">Dudas de Fans</a></ul>
-            <ul class="header__list--item"><a class="list__item--a" href="#">Como Contribuir</a></ul>
-            <ul class="header__list--item"><a class="list__item--a" href="#">Quiero donas mucho dinero, por favor</a></ul>
-        </li>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__list--item"><a class="list__item--a" href="#inicio">Inicio</a></li>
+                <li class="header__list--item"><a class="list__item--a" href="#testimonios">Testimonios</a></li>
+                <li class="header__list--item"><a class="list__item--a" href="#faq">Preguntas Frecuentes</a></li>
+                <li class="header__list--item"><a class="list__item--a" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="hero-content">
-        <section class="hero">
-            <h1 class="hero__title">Habla inglés, peresozo, es la hora de por fin aprender.</h1>
-            <h2 class="hero__subtitle">Para adolescentes y adultos.</h2>
-            <a class="hero__callaction" href="#">¡inscribete ahora!</a>
-            <p class="hero__paragraph">No pierdas  esta oportunidad única de aprender más en menos tiempo.</p>
-            <!-- <p>¡Inscripciones Abiertas!</p>
-            <p><span>Antes: $120</span> | <span>¡Ahora: $85!</span></p> -->
-            <img src="svg/libertad.svg" alt="" srcset="" style="width: 128px; margin: 32px auto; display: block;">
+    <main>
+        <div class="hero-content" id="inicio">
+            <section class="hero">
+                <h1 class="hero__title">Domina el Inglés y Transforma tu Futuro</h1>
+                <h2 class="hero__subtitle">Cursos dinámicos para adolescentes y adultos.</h2>
+                <a class="hero__callaction" href="#">¡Inscríbete Ahora!</a>
+                <p class="hero__paragraph">Aprovecha esta oportunidad única para aprender de manera efectiva y en menos tiempo.</p>
+                <img src="svg/libertad.svg" alt="Logo EnglishDo" style="width: 128px; margin: 32px auto; display: block;">
+            </section>
+        </div>
+
+        <section class="testimonials" id="testimonios">
+            <h2 class="section__title">Lo que dicen nuestros estudiantes</h2>
+            <div class="testimonial-card">
+                <p>"¡El mejor curso de inglés que he tomado! La metodología es increíble y el profesor es muy dedicado."</p>
+                <span>- María G.</span>
+            </div>
+            <div class="testimonial-card">
+                <p>"Gracias a EnglishDo, por fin me siento seguro hablando en inglés. ¡Totalmente recomendado!"</p>
+                <span>- Carlos P.</span>
+            </div>
         </section>
-    </div>
-    <section class="faq">
-    </section>
-    <footer>
+
+        <section class="faq" id="faq">
+            <h2 class="section__title">Preguntas Frecuentes</h2>
+            <div class="faq-item">
+                <h3 class="faq-question">¿Cuáles son los horarios de las clases?</h3>
+                <p class="faq-answer">Ofrecemos horarios flexibles por la mañana, tarde y noche para adaptarnos a tu rutina.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">¿Se entrega algún certificado?</h3>
+                <p class="faq-answer">Sí, al completar exitosamente el curso, recibirás un certificado de finalización.</p>
+            </div>
+             <div class="faq-item">
+                <h3 class="faq-question">¿Qué niveles ofrecen?</h3>
+                <p class="faq-answer">Tenemos cursos para todos los niveles, desde principiante (A1) hasta avanzado (C1).</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <p>EnglishDo &copy; 2025</p>
+        <p>Contacto: info@englishdo.com</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
     </footer>
 
-    <script src="code.js"></script>
+    <script src="js/code.js"></script>
 </body>
 </html>
