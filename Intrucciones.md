@@ -1,3 +1,3 @@
 - Pagina web movile first
 - Mantiene el estilo actual
-- Landingpage
+- Simple
